@@ -37,13 +37,58 @@ main{
   background-color: #F6F8F9;
   height: 1130px;
   padding-top: 70px;
+  
 }
 
 .container{
   height: 1030px;
   width: 77%;
-  margin: auto;
-  
+  margin: auto;  
   background-color: white;
-  border: 2px solid black;
+  
+  border-radius: 15px;
 }
+
+.buttons{
+  margin-left: 90px;
+}
+
+
+.new-task{
+  margin-left: 90px;  
+}
+
+.title{
+  position: relative;
+
+}
+
+.contenuto{
+  position: relative;
+}
+
+.title h2{
+  display: inline;
+  margin: 0 0 0 10px;
+  top: 5%;
+  position: absolute;
+  
+}
+
+span{
+  position: absolute;
+  top: 20%;
+  margin-left: 10px;
+}
+
+hr{
+  height: 2px;
+  background-color: #F6F8F9;
+  border: none;  
+}
+
+img{
+  height: 30px;
+  padding-top: 5px;  
+}
+
