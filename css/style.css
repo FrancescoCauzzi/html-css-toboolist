@@ -2,7 +2,12 @@
   margin-left: 0;
   margin-right: 0;
   box-sizing: border-box;
-  font-family:Arial, Helvetica, sans-serif
+  
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  /* come prassi mettiamo il font-family al body così diventa una classe da ereditare */
 }
 
 nav{
@@ -12,26 +17,25 @@ nav{
   padding-left: 35px;
   padding-top: 25px;
   padding-bottom: 25px;
-  position: relative;
-  
+  position: relative;  
 }
 
 nav h1{
   display: inline;
   color: black;
   margin: 0;
-  position: absolute;
-  top: 30%;
-  margin-left: 10px;
-  
+  margin-left: 10px;  
   font-size: 50px;
   font-weight: bold;
-
+  top: 30%;
+  position: absolute;
+  /* vertical-align: middle; (soluzione di Gabriel)*/
 }
 
 nav img{
   height: 85px;
   width: 85px;
+  /* vertical-align: middle; (Soluzione di Gabriel)*/
 }
 
 main{
@@ -43,8 +47,8 @@ main{
 
 .container{
   height: 700px;
-  width: 77%;
-  margin: auto;  
+  width: 77%; /*Gabriel ha usato un padding property */
+  margin: 0 auto;  
   background-color: white;
   padding-top: 20px;  
   border-radius: 15px;
@@ -64,24 +68,24 @@ main{
 }
 
 #button-1{  
+  /* broder-color: ; */
   border: none;
   color: white;
   background-color: #47ADF1;
 }
 
-#button-2{
-  
+#button-2{  
+  /* border-color: ; */
   border: 2px solid #C6CCD1;
   color: #C6CCD1;
   background-color: white;
 }
 
 .new-task, .today, .upcoming{
-  margin-bottom: 50px ;
-    
+  margin-bottom: 50px ;    
 }
 
-.title{
+.title, .contenuto{
   position: relative;
   margin-left: 90px;
 }
@@ -94,10 +98,6 @@ main{
   font-weight: bolder;  
 }
 
-.contenuto{
-  position: relative;
-  margin-left: 90px;
-}
 
 .contenuto button{
   width: 80px;
@@ -138,16 +138,15 @@ span{
   top: 15%;
   margin-left: 10px;
   font-size: 1.2em;
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 
 hr{
+  /* border: 2px solid #F6F8F9 */
   height: 2px;
   background-color: #F6F8F9;
   border: none;  
-  margin-bottom: 50px ;
-
+  margin-bottom: 50px;
 }
 
 img{
